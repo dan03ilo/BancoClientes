@@ -1,0 +1,11 @@
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\bin\Debug\netcoreapp2.1\BancoClientes.deps.json
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\bin\Debug\netcoreapp2.1\BancoClientes.runtimeconfig.json
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\bin\Debug\netcoreapp2.1\BancoClientes.runtimeconfig.dev.json
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\bin\Debug\netcoreapp2.1\BancoClientes.dll
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\bin\Debug\netcoreapp2.1\BancoClientes.pdb
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\obj\Debug\netcoreapp2.1\BancoClientes.csprojAssemblyReference.cache
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\obj\Debug\netcoreapp2.1\BancoClientes.csproj.CoreCompileInputs.cache
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\obj\Debug\netcoreapp2.1\BancoClientes.AssemblyInfoInputs.cache
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\obj\Debug\netcoreapp2.1\BancoClientes.AssemblyInfo.cs
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\obj\Debug\netcoreapp2.1\BancoClientes.dll
+C:\Users\danilo.rloliveira\CSharp\POO\BancoClientes\obj\Debug\netcoreapp2.1\BancoClientes.pdb
