@@ -83,7 +83,9 @@ namespace BancoClientes.domain
 
         }
 
-            public List<Cliente> list(){
+      
+
+        public List<Cliente> list(){
 
                 List<Cliente> lst = new List<Cliente>();
 
@@ -98,9 +100,7 @@ namespace BancoClientes.domain
 
                 cmd.CommandText = "Select id, nome, email, telefone, idade, datacadastro from cliente";
 
-                cmd.ExecuteReader();
-
-                /*
+                 /*
                 Para executar e ler os dados a partir do comando select, iremos usar uma execução com o comando ExecuteReader
                 (executa a consulta e lê o resultado). Esse resultado será armazenado em uma variável do tipo Reader(Leitor) 
                 para suportar os dados que retornam da consulta
@@ -117,6 +117,14 @@ namespace BancoClientes.domain
                   */
 
                   while(dr.Read()){
+
+                      /*
+                      O método lista retorna uma lista de clientes cadastrados. Para nos ajudar no retorno foi criada
+                      uma lista do tipo cliente com o nome de lst. Essa lista só aceita clientes como conteúdo. Portanto
+                      foi necessário criar um objeto do tipo Cliente com o nome da cli para organizar os dados vindos do dr
+                      (instância dp banco de dados) e assim adicionar cli a lista de clientes
+                       */
+
                       Cliente cli = new Cliente();
                       cli.id = dr.GetInt32("id");
                       cli.nome = dr.GetString("nome");
@@ -127,6 +135,13 @@ namespace BancoClientes.domain
                       lst.Add(cli);
 
                   }
-            }
+
+                  conexao.Close();
+                  return lst;
+                 
+            
+        }   
     }
-}
+
+
+}  
